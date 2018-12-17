@@ -1,0 +1,252 @@
+body {
+	
+}
+#product_list_container {
+	overflow: auto; margin-bottom: 30px;
+}
+.product_list {
+	overflow: auto; margin-bottom: 30px;
+}
+.loadmore-btn {
+	text-align: center;
+}
+.item_product_list {
+	padding: 0px !important;
+}
+.product_list_item {
+	padding: 5px 8px;
+}
+.product_list_item:hover {
+	
+}
+.listphoto_pro {
+	border: 1px solid rgb(204, 204, 204); border-image: none; position: relative;
+}
+.pro_info {
+	overflow: auto; margin-top: 10px; position: relative; -ms-overflow-x: hidden; -ms-overflow-y: auto; min-height: 60px;
+}
+h3.titleProduct {
+	margin: 0px; text-align: left; color: rgb(51, 51, 51); text-transform: uppercase; line-height: 20px; overflow: hidden; font-size: 14px; max-height: 40px;
+}
+h3.titleProduct a {
+	color: rgb(51, 51, 51);
+}
+.mPrice {
+	font-size: 14px;
+}
+.sale_price_list_gs {
+	width: 50%; color: rgb(183, 11, 11); font-size: 14px; font-weight: bold; float: left;
+}
+.price_sale_list {
+	width: 50%; color: rgb(119, 117, 117); font-size: 12px; text-decoration: line-through; float: left;
+}
+.sales_icon_list {
+	background: rgb(165, 0, 0); padding: 8px 0px 5px; left: 15px; top: -1px; width: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 13px; font-size: 13px; position: absolute; z-index: 1;
+}
+.sales_icon_list::after {
+	border-width: 10px 20px 0px; border-style: solid; border-color: rgb(165, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); left: 0px; bottom: -10px; position: absolute; content: "";
+}
+.product_list_item:hover .buynow_content {
+	text-align: center; padding-top: 12px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.buynow_content {
+	text-align: center; padding-top: 12px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: none; cursor: pointer;
+}
+.title_top_product {
+	margin: 10px 0px; padding-bottom: 0px; border-bottom-color: rgb(131, 132, 134); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.title_product {
+	color: rgb(170, 170, 170); text-transform: uppercase; font-size: 18px;
+}
+.title_product a {
+	color: rgb(170, 170, 170); text-transform: uppercase; font-size: 18px; text-decoration: none;
+}
+.active_title_product {
+	color: rgb(0, 0, 0); text-transform: uppercase; font-size: 18px;
+}
+.active_title_product a {
+	color: rgb(0, 0, 0);
+}
+.quantity_product {
+	color: rgb(56, 56, 56);
+}
+.filterProduct h5.pro_title a {
+	padding: 5px 10px; color: rgb(131, 131, 131); text-transform: uppercase; display: inline-block;
+}
+.filterProduct h5.pro_title span {
+	font-size: 18px;
+}
+.filterProduct h5.pro_title a.active_cate {
+	background: rgb(131, 131, 131); color: rgb(255, 255, 255); margin-left: 10px;
+}
+#smart_search_form {
+	margin: 15px 0px;
+}
+.title_cate {
+	margin: 22px 0px; text-align: center; color: rgb(0, 78, 114); text-transform: uppercase; padding-bottom: 7px; font-size: 22px; font-weight: 600;
+}
+.search_condition {
+	overflow: auto; margin-bottom: 15px;
+}
+.search_condition .col-sm-6 {
+	padding: 0px 15px;
+}
+.icon-display-combo {
+	top: 0px; right: 5px; position: absolute;
+}
+.icon-display-outstock {
+	top: 0px; right: 0px; position: absolute;
+}
+.icon-display-combo img {
+	width: 45px;
+}
+.icon-display-outstock img {
+	width: 86px;
+}
+.icon-display-combo span {
+	left: 2px; top: 5px; width: 41px; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 18px; letter-spacing: -1px; font-size: 11px; font-weight: bold; position: absolute;
+}
+.active_scroll {
+	left: 0px; position: absolute;
+}
+.waiting-filter-product {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; color: rgb(255, 255, 255); display: none; position: absolute; z-index: 9; background-color: rgba(255, 255, 255, 0.85);
+}
+.waiting-filter-product img {
+	margin: 0px auto; left: 50%; bottom: 0px; position: absolute; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%);
+}
+@media all and (min-width:767px)
+{
+.product_list.col-sm-12 .item_product_list {
+	width: 25%;
+}
+}
+@media all and (min-width:768px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 474px; max-height: 474px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 474px;
+}
+}
+@media all and (min-width:992px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 445px; max-height: 445px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 445px;
+}
+}
+@media all and (min-width:1200px)
+{
+.product_list.col-sm-12 .item_product_list {
+	width: 20%;
+}
+.listphoto_pro {
+	overflow: hidden; min-height: 370px; max-height: 370px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 370px;
+}
+}
+@media all and (min-width:1300px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 381px; max-height: 381px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 381px;
+}
+}
+@media all and (min-width:1400px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 414px; max-height: 414px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 414px;
+}
+}
+@media all and (min-width:1500px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 450px; max-height: 450px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 450px;
+}
+}
+@media all and (max-width:767px)
+{
+.search_condition .col-sm-6 {
+	padding: 0px 20px !important;
+}
+.product_list_item {
+	padding: 5px;
+}
+.product_list_item-no-hover {
+	padding: 5px !important;
+}
+#product_list_container {
+	padding: 5px; width: 100%;
+}
+.product_list {
+	padding: 5px; width: 100%;
+}
+.product_filter {
+	padding: 5px; width: 100%;
+}
+.content_filter {
+	z-index: 5; background-color: rgb(255, 255, 255);
+}
+.product_list.col-sm-12 .item_product_list {
+	width: 50%;
+}
+.smartSeart_container .container {
+	padding: 0px 5px;
+}
+}
+@media all and (max-width:420px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 254px; max-height: 254px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 254px;
+}
+}
+@media all and (max-width:375px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 219px; max-height: 219px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 219px;
+}
+}
+@media all and (max-width:360px)
+{
+.listphoto_pro {
+	overflow: hidden; min-height: 210px; max-height: 210px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 210px;
+}
+}
+@media all and (max-width:320px)
+{
+.sale_price_list_gs {
+	font-size: 13px;
+}
+.price_sale_list {
+	font-size: 11px;
+}
+.listphoto_pro {
+	overflow: hidden; min-height: 184px; max-height: 184px;
+}
+.listphoto_pro img.lazy-image {
+	min-height: 184px;
+}
+}

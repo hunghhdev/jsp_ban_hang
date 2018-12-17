@@ -1,0 +1,140 @@
+.productDetail{
+	width: 100%;
+	height: auto !important;
+}
+#xzoom-thumbs{
+	padding-left: 0px;
+	max-height: 16px;
+	overflow: auto;
+}
+.lb_size{
+	padding: 0;
+	margin:0;
+	text-transform: uppercase;
+}
+.addToCart_btn {
+    background: #ed1b24;
+    color: #FFF !important;
+    padding: 8px 10px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    width: 100% !important;
+    border: 1px solid #ed1b24;
+}
+.addmorecart_content {
+    margin: 10px auto;
+    text-align: center;
+}
+.green_addtocart_btn {
+    border: 1px solid #00A551;
+    color: #00A551;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.left_content {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+/*Phần ảnh*/
+.img_singleProduct {
+    padding: 20px 0;
+}
+.xzoom-container {
+    display: inline-block;
+}
+#xzoom-img {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+#xzoom-thumbs a{
+	color: #337ab7;
+	text-decoration: none;
+}
+.img_singleProduct .xzoom-thumbs img {
+    width: 100%;
+}
+.detail_singleProduct {
+    margin-top: 20px;
+}
+.box_top {
+    background-color: #e7e7e9;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.detail_singleProduct h2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.price {
+    margin-bottom: 20px !important;
+}
+.intro_detail {
+    margin-top: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.classlist {
+    margin-bottom: 10px;
+}
+
+.quantityProduct {
+    margin-bottom: 20px;
+}
+
+/*cột cuố*/
+.willdeliver {
+    padding-left: 5px;
+}
+.left_content {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.addmorecart_content {
+    margin: 10px auto;
+    text-align: center;
+}
+.attention {
+    color: #f00;
+}.help_dt {
+    margin: 15px 0;
+    text-align: center;
+}
+.classlist label > input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    min-width: 30px;
+    line-height: 20px;
+    padding: 0 5px;
+    border: 2px solid #e42127;
+}
+/*input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}*/
+.classlist label > input[type="radio"]:checked + span {
+    border: 2px solid #e42127 !important;
+    padding: 0;
+    border-radius: 0;
+    background-image: url('Image/bg-product.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 100% 100% !important;
+}

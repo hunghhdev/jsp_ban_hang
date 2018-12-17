@@ -1,0 +1,26 @@
+#nav-tabs-custom ul{
+	list-style-type: none;
+
+}
+#nav-tabs-custom ul li{
+	display: inline-block;
+}
+#nav-tabs-custom ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+	color: black;
+	font-weight: bold;
+
+}
+#login-content .navi-tabs > li.active > a {
+
+    color: #00aeef !important;
+    border-bottom: 3px solid #00aeef !important;
+
+}
+.navi-tabs {
+
+    border-bottom: 1px solid #ddd;
+
+}
