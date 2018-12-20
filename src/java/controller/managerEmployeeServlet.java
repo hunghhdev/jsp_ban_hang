@@ -32,7 +32,9 @@ public class managerEmployeeServlet extends HttpServlet {
         adminBO adminbo = (adminBO) session.getAttribute("adminBo");
         String url = "", error = "";
         adminBO bo = new adminBO();
-        bo.setId(Long.parseLong(id));
+        if (common.isNullOrEmpty(id)) {
+            bo.setId(Long.parseLong(id));
+        }
         bo.setName(name);
         bo.setEmail(mail);
         bo.setPassword(password);

@@ -1,17 +1,13 @@
 package model;
 
-import java.util.Date;
-
-public class Customer {
+public class Staff {
     private int id;
     private String name;
-    private String phone;
     private String email;
-    private boolean sex;
-    private Date birthDay;
+    private int role;
     private Account account;
 
-    public Customer() {
+    public Staff() {
     }
 
     public int getId() {
@@ -30,14 +26,6 @@ public class Customer {
         this.name = name;
     }
 
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -46,20 +34,12 @@ public class Customer {
         this.email = email;
     }
 
-    public boolean isSex() {
-        return sex;
+    public int getRole() {
+        return role;
     }
 
-    public void setSex(boolean sex) {
-        this.sex = sex;
-    }
-
-    public Date getBirthDay() {
-        return birthDay;
-    }
-
-    public void setBirthDay(Date birthDay) {
-        this.birthDay = birthDay;
+    public void setRole(int role) {
+        this.role = role;
     }
 
     public Account getAccount() {

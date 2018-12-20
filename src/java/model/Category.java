@@ -1,31 +1,26 @@
 package model;
 
 public class Category {
-    private long categoryID;
-    private String categoryName;
+    private long ID;
+    private String Name;
 
     public Category() {
     }
 
-    public Category(long categoryID, String categoryName) {
-        this.categoryID = categoryID;
-        this.categoryName = categoryName;
-    }
-        
-    public long getCategoryID() {
-        return categoryID;
+    public long getID() {
+        return ID;
     }
 
-    public void setCategoryID(long categoryID) {
-        this.categoryID = categoryID;
+    public void setID(long ID) {
+        this.ID = ID;
     }
 
-    public String getCategoryName() {
-        return categoryName;
+    public String getName() {
+        return Name;
     }
 
-    public void setCategoryName(String categoryName) {
-        this.categoryName = categoryName;
+    public void setName(String Name) {
+        this.Name = Name;
     }
-    
+
 }
